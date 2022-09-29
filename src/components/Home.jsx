@@ -5,7 +5,11 @@ import { Button } from 'react-bootstrap';
 export default function Home(){
     return(
         <>
-            <h1>Home works!</h1>
+            <form>
+                <label htmlFor="new-todo">CNPJ</label>
+                <h1>Home works!</h1>
+            </form>
+
             <Link to={'/perfil'}>
                 <Button as="button" variant="primary">PERFIL</Button>
             </Link>
